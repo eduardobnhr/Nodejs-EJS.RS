@@ -5,10 +5,10 @@ app.set("view engine", "ejs");
 
 //ta criando uma rota
 app.get("/", function(req, res){
-    res.render("index");
+    res.render("pages/index");
 })
 app.get("/sobre", function(req, res){
-    res.render("about");
+    res.render("pages/about");
 })
 
 //listen é uma funcao do express que fica ouvindo uma porta
